@@ -1,0 +1,26 @@
+.black{
+    border: 1px solid black;
+}
+
+.red{
+    border-bottom: 1px solid red;
+}
+
+.round{
+    border: 1px solid rgb(83, 79, 79);
+    border-radius: 10px;
+}
+
+.blue{
+    border-left: 4px solid rgba(10, 161, 167, 0.986);
+    background-color: rgba(91, 250, 255, 0.541);
+    padding: 4px;
+}
+
+.double{
+    border: 3px double rosybrown;
+}
+
+.groove{
+    border: 3px groove rgb(185, 183, 183);
+}

@@ -1,0 +1,9 @@
+.myMain{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-image: url(../image/takhte-jamshid10.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
