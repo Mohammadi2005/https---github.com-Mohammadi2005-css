@@ -1,0 +1,30 @@
+/* Element */
+p{
+    color: rgb(201, 3, 3);
+}
+
+/* id */
+#caption{
+    color: blue;
+}
+
+/* class */
+.myclass{
+    background-color: rgb(252, 243, 231);
+}
+
+/* all elements */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* grouping */
+h1, h2, #test{
+    color: darkcyan;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* element.class */
+h2.myclass{
+    border: 2px solid rebeccapurple;
+}

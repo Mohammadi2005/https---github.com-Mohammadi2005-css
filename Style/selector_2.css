@@ -1,0 +1,20 @@
+/* element element */
+.Main div{
+    color: blue;
+}
+
+/* element > element */
+.Main > div{
+    border: 1px solid red;
+}
+
+/* element + element */
+h1 + p{
+    font-size: 40px;
+    color: green;
+}
+
+/* element ~  element */
+h3 ~ p{
+    background-color:beige
+}
