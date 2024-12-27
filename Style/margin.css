@@ -1,0 +1,18 @@
+div{
+    height: 30px
+}
+
+.red{
+    background-color: red;
+    margin: 20px;
+}
+
+.blue{
+    background-color: blue;
+    margin: 40px 60px;
+}
+
+.green{
+    background-color: green;
+    margin: 30px 60px 90px 120px;
+}

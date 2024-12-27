@@ -1,0 +1,65 @@
+قسمت 1
+طریقه اضافه کردن فایل چ تی ام ال به پروژه
+فایل سی اس اس رو هر جا که دلمون بخواد ایجاد می کنیم و با استفاده 
+از تگ لینک ادرس فایل سی اس اس رو به اچ تی ام ال می دیم
+
+<link rel="stylesheet" href="./Style/app.css">
+
+
+قسمت 2
+selectores
+
+
+element
+id --> #
+
+class --> . 
+پرکاربرد ترین
+
+all element --> *
+grouping
+element.class
+
+
+
+قسمت 3
+selectors_2
+کاربردی هستند و حالت شرطی دارن
+
+
+element element
+اگر داخل عنصر با نوع اول عناصری با نوع دوم وجود داشت
+
+
+element > element
+اگر داخل عنصر نوع اول عناصری از نوع دوم وجود داشت که
+فرزند مستقیم عنصر نوع اول باشند
+
+
+element + element
+اگر در کنار عنصر نوع اول بلافاصله عنصری از نوع دوم وجود داشت اولینش انتخاب میشه
+
+
+elemen ~ element
+اگر در کنار عنصر نوع اول عناصری از نوع دوم وجود داشت همشو انتخاب میکنه
+
+
+قسمت 4
+background
+
+
+قسمت 5
+border
+
+
+قسمت 6
+margin
+
+important
+
+Margins are used to create space around elements,
+ outside of any defined borders.
+
+
+
+
