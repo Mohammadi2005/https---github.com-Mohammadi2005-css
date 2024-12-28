@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: #deb88746;
+    padding: 25px 10px;
+    margin: 15px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.list{
+    padding: 6px;
+    font-size: 24px;
+    list-style-image: url(https://icongr.am/simple/chase.svg?size=16&color=currentColor&colored=false);
+}
+
+.list:hover{
+    border-bottom: 3px solid;
+    background-color: #deb88763;
+    border-radius: 10px;
+}
+
+.list1{
+    padding: 6px;
+    font-size: 24px;
+    list-style: none;
+}
+
+.list1:hover{
+    border-bottom: 3px solid;
+    background-color: #deb88763;
+    border-radius: 10px;
+}
+
+
+
+
