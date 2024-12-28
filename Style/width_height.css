@@ -1,0 +1,18 @@
+html{
+    font-size: 18px;
+}
+
+.text{
+    font-size: 2rem;  /* 2 * 18px = 36px */
+}
+
+.number{  /* 0.5 * 36px = 18px */
+    font-size: 0.5em;
+}
+
+.view{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(238, 214, 180);
+    border-radius: 10px;
+}
