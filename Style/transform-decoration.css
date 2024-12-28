@@ -1,0 +1,27 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+div{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.transformation1{
+    direction: ltr;
+    text-transform: uppercase;
+    text-decoration: line-through; 
+}
+.transformation2{
+    direction: ltr;
+    text-transform: lowercase;
+    text-decoration: underline; 
+}
+.transformation3{
+    direction: ltr;
+    text-transform: capitalize;
+    text-decoration: overline; 
+}

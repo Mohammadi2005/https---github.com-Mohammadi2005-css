@@ -61,5 +61,87 @@ Margins are used to create space around elements,
  outside of any defined borders.
 
 
+قسمت 7
+width height
+
+در صد و پیکسل رو که می دونم اما
+rem
+یک واحد از اندازه فونت سایزی هست که برای سند تعریف شده که به صورت دیفالت 
+16 پیکسل هست
+
+em
+هم یک سایز هست که برحسب سایز تگ پدرش می باشد
+
+vw
+مخفف
+view poort width
 
 
+vh
+مخفف
+view poort height
+برای اسکرول کردن استفاده میشن
+
+
+
+قسمت 8
+Min Width
+Max Width
+Min Heigth
+Max Heigth
+
+پراپرتی های بالا کاربردی و مهم هستند و توی 
+پروژه ها کاربر دارن ولی مثال خاصی نمیشه ازش زد
+
+
+
+قسمت 9
+BoxModel boxSixing
+
+وقتی به یک تگ 
+width
+height
+می دم بعد با دادن 
+padding
+margin
+طول عرض اون تگ تغییر می کنه که خوب نیست و برای رفع این
+مشکل باید 
+boxSizing 
+رو از حالت 
+content-size
+رو روی حالت 
+border-size
+rvhv fnl
+
+*{
+    box-sizing: border-box;
+}
+
+
+قسمت 10
+outline
+یک تگ شبیه 
+border
+هست و زیاد کابرد نداره
+
+
+
+قسمت 11
+TextAlignment
+
+text-align: justify;
+باعث میشه عرض کامل باکس اشغال بشه
+
+rigth
+left
+center
+
+رو هم که میدونم
+
+text-align
+تراز محتوای درون یک تگ رو مشخص میکنه 
+
+direction
+تراز خود تگ رو مشخص میکنه که بیشتر برای
+input
+استفاده میشه
