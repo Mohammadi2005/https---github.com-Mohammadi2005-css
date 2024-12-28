@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+p{
+    font-family: "Playwrite DE Grund Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div{
+    background-color: rgb(128, 129, 129);
+    padding: 15px;
+    margin: 12px;
+    border-radius: 15px;
+    color: aliceblue;
+    text-align: justify;
+
+    text-indent: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 40px;
+    box-shadow: 4px 4px 6px rgb(14, 76, 92);
+
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-indent: 0px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 5px rgb(14, 76, 92);
+    box-shadow: 4px 4px 6px rgb(14, 76, 92);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(128, 129, 129);
+}
+.sub{
+    text-shadow: 3px 3px 5px rgb(14, 76, 92);
+    font-size: 38px;
+    font-weight: bold;
+    font-style: oblique;
+
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;  
+}

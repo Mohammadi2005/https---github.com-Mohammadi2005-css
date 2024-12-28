@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "vazir1";
+    src: 
+    url(../font/ttf/Vazirmatn-ExtraBold.ttf) format(truetype),
+    url(../font/webfonts/Vazirmatn-ExtraBold.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "vazir2";
+    src: 
+    url(../font/ttf/Vazirmatn-Medium.ttf) format(truetype),
+    url(../font/webfonts/Vazirmatn-Medium.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "vazir3";
+    src: 
+    url(../font/ttf/Vazirmatn-Light.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "vazir4";
+    src: url(../font/webfonts/Vazirmatn-Thin.woff2) format(woff2);
+}
+
+.vazir1{
+    font-family: vazir1;
+}
+
+.vazir2{
+    font-family: vazir2;
+}
+
+.vazir3{
+    font-family: vazir3;
+}
+
+.vazir4{
+    font-family: vazir4;
+}
