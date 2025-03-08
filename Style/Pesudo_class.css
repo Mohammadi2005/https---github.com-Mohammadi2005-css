@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "me";
+    src: url(../font/El_Messiri/ElMessiri-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "me";
+}
+:root{
+    background-color: antiquewhite;
+}
+
+html{
+    background-color: brown;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+    width: 1200px;
+    background-color: aliceblue;
+    /* min-height: 400px; */
+}
+
+.checkbox:checked + .alert {
+    display: block;
+}
+
+
+.alert{
+    display: none;
+}
+
+.item:first-child{
+    color: red;
+}
+
+.item:last-child{
+    color: blue;
+}
+
+.item2:nth-child(even){
+    color: rgb(138, 138, 167);
+}
+
+.item2:nth-child(odd){
+    color: aquamarine;
+}
+
+.item3:not(.deleted){
+    color: darkgreen;
+}

@@ -1,0 +1,11 @@
+::selection{
+    color: rgb(255, 255, 255);
+    background-color: rgb(175, 113, 32);
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
