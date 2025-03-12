@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+.auto, .scroll, .hidden, .visible{
+    margin-top: 90px;
+    width: 300px;
+    height: 210px;
+    background-color: bisque;
+    border: 2px solid rgb(119, 85, 44);
+    font-family: cursive;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    display: inline;
+}
+.parent{
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    /* gap: 20px; */
+    margin-top: 0px;
+    width: 1200px;
+    /* height: 1000px; */
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+.auto{
+    overflow: auto;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.visible{
+    overflow: visible;
+}
