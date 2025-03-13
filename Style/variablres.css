@@ -1,0 +1,25 @@
+:root{
+    --myColor:rgb(77, 180, 180);
+    --myShadow : 2px 3px 16px rgb(43, 97, 79);;
+}
+.container{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+h1{
+    color: var(--myColor);
+}
+.box{
+    width: 40%;
+    height: 200px;
+    background-color: var(--myColor);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: var(--myShadow);
+}
+p{
+    color: var(--myColor);
+}
+
