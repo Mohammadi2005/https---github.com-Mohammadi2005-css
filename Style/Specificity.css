@@ -1,0 +1,22 @@
+*{
+    font-size: 28px;
+}
+p{
+    color: rgb(0, 218, 29);
+}
+
+.text1{
+    color: darkcyan;
+}
+
+#text1{
+    color: darkgreen;
+}
+
+.text2{
+    color: rgb(255, 0, 0) !important;
+}
+
+#text2{
+    color: rgb(107, 42, 83);
+}
