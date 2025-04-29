@@ -1,0 +1,46 @@
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+    transition: all 900ms ease-out 200ms;
+}
+.box1:hover{
+    background-color: cadetblue;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+    transition: all 1900ms ease-out 200ms;
+}
+.box2:hover{
+    width: 1000px;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(148, 39, 39);
+    transition: all 500ms ease-out 200ms;
+}
+.box3:hover{
+    box-shadow: 2px 2px 10px rgb(28, 56, 55);
+    padding: 5px;
+}
+.box4{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(39, 212, 62);
+    transition: all 900ms ease-out 200ms;
+}
+.box4:hover{
+    box-shadow: 2px 2px 10px rgb(71, 11, 7);
+    background-color: rgb(22, 114, 29);
+    width: 1000px;
+    /* padding: 5px; */
+}
+
