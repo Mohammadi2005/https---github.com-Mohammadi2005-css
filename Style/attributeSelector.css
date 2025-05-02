@@ -1,0 +1,15 @@
+.form1 [type]{
+    background-color: aqua;
+}
+
+.form2 [type="text"]{
+    background-color: bisque;
+}
+
+.form3 [href^="https//"]{
+    background-color: rgb(252, 185, 0);
+}
+
+.form4 [href$=".com"]{
+    background-color: crimson;
+}
