@@ -1,0 +1,51 @@
+:root{
+    --backColor:rgb(98, 168, 168);
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 5px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--backColor);
+}
+.flex-container{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.flex-item{
+    width: calc(25% - 10px);
+    height: 100%;
+    background-color: beige;
+    text-align: center;
+    line-height: 70px;
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        height: 200px;
+    }
+    .flex-container{
+        flex-wrap: wrap;
+    }
+    .flex-item{
+        width: calc(50% - 10px);
+        height: calc(50% - 5px);
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        height: 400px;
+    }
+    .flex-item{
+        width: calc(100%);
+        height: calc(25% - 5px);
+        line-height: 87px;
+    }
+    
+}
