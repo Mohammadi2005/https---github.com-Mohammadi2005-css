@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "messiri";
+    src:
+    url(../font/shabnam/Shabnam-Light.woff2)format(woff2);
+}
+
+*{
+    margin-top: 0px;
+    font-family: messiri;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+.parent{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(196, 203, 212);
+    width: 1100px;
+    height: 570px;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+} 
+.box1,.box2,.box3,.box4{
+    height: 400px;
+    width: 240px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 1px 2px 9px rgba(12, 95, 204, 0.671);
+    align-items: center;
+    padding: 10px;
+}
+.s{
+    background-color: rgb(243, 227, 157);
+    color: rgba(40, 75, 77, 0.925);
+    padding: 6px 4px 3px 4px;
+    border-radius: 7px;
+    margin-left: 6px;
+    align-items: center;
+}
+
+.parent1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Description{
+    height: 70px;
+}
+
+.head{
+    display: flex;
+    gap: 5px;
+    width: 1100px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: rgba(30, 148, 216, 0.747);
+}
+
+.link{
+    /* display: flex; */
+    color: rgb(30, 148, 216);
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: aliceblue;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.baseus, .number{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+}
+
+.baseus{
+    padding: 7px;
+}
+
+
